@@ -453,7 +453,7 @@ a:hover {
 .ink {
 	display: block;
 	position: absolute;
-	background: #FDAC53;
+	background: RGBA(19, 20, 21, .75);
 	transform: scale(0);
 	-webkit-transform: scale(0);
 	-moz-transform: scale(0);
