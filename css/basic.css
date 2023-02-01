@@ -538,6 +538,45 @@ a.btn:hover,
 	color: #FDAC53;
 }
 
+a.btn-reel,
+.btn-reel, .single-post-text input[type="submit"] {
+	margin-bottom: 10px;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+	height: 44px;
+	line-height: 40px;
+	text-align: center;
+	margin-right: 5px;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 500;
+	text-decoration: none;
+	background: #FDAC53;
+	border: 2px solid #FDAC53;
+	cursor: pointer;
+	transition: 1s all cubic-bezier(0.165, 0.85, 0.45, 1) 0s;
+	-moz-transition: 1s all cubic-bezier(0.165, 0.85, 0.45, 1) 0s;
+	-webkit-transition: 1s all cubic-bezier(0.165, 0.85, 0.45, 1) 0s;
+	-o-transition: 1s all cubic-bezier(0.165, 0.85, 0.45, 1) 0s;
+}
+
+a.btn-reel .lnk-reel,
+.btn-reel .lnk-reel {
+	padding: 0 30px;
+	position: relative;
+	display: block;
+	z-index: 2;
+	pointer-events: none;
+	/* color: #fff; */
+}
+
+a.btn-reel:hover,
+.btn-reel:hover {
+	color: #FDAC53;
+}
+
 @media screen and (max-width: 720px) {
 	a.btn, .btn, .single-post-text input[type="submit"] {
 		font-size: 14px;
